@@ -23,10 +23,10 @@ npm run test:ui
 npm run report
 
 ----------------------------------------------------------------------------
-
+##### Manual Bug-reports
+reports/manual-bug-reports.md
 
 ##### Project Structure
-
 tests/api/ - API test suites (authentication, CRUD, benefits calculation)
 tests/ui/ - UI test suites (login, dashboard verification)
 pages/ - Page Object Models
@@ -34,7 +34,6 @@ utils/ - Helper functions
 reports/ - Test execution reports
 
 ###### Technology Stack
-
 Playwright 1.48.2
 Node.js
 JavaScript/ES6
