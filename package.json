@@ -1,0 +1,15 @@
+﻿{
+  "name": "benefits-automation",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:api": "npx playwright test tests/api",
+    "test:ui": "npx playwright test tests/ui",
+    "test:all": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "dotenv": "^16.0.0"
+  }
+}
